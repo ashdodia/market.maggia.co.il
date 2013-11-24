@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Manage Ads">
+		<message>
+			<![CDATA[
+				Manage Ads
+			]]>
+		</message>
+	</layout>
+	<state>
+		<name>Manage Ads</name>
+		<description>Manage Ads</description>
+	</state>
+</metadata>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SobiProApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://xml.sigsiu.net/SobiPro/application.xsd">
+  <name>Grid navigation with colorbox addon</name>
+  <id>grid-navigation</id>
+  <authorName>Mostafa Shalkami</authorName>
+  <authorEmail>info@sobimarket.net</authorEmail>
+  <authorUrl>http://www.sobimarket.net</authorUrl>
+  <copyright>Copyright (C) 2009-2011 Sobimarket.net</copyright>
+  <license>GNU General Public License v3</license>
+  <creationDate>2011-12-06</creationDate>
+  <type>global_application</type>
+  <version>1.0.0</version>
+  <description>Grid navigation with colorbox addon to gallery plugin</description>
+  <files path="js:gallery">
+    <folder>tpl/js/</folder>
+  </files>
+  <files path="css:gallery">
+    <folder>tpl/css/</folder>
+  </files>
+  <files path="home:.">
+    <file>config.php</file>
+    <file>grid-navigation.tpl.php</file>
+  </files>
+  <actions>
+    <action>gallery</action>
+  </actions>
+  <requirements>
+    <application>gallery</application>
+  </requirements>
+  <installLog>
+    <actions>
+      <action>gallery</action>
+    </actions>
+    <modified/>
+    <files>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/lib/js/gallery/grid-navigation/1easing.js</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/lib/js/gallery/grid-navigation/2mousewheel.js</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/lib/js/gallery/grid-navigation/3gridnav.js</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/lib/js/gallery/grid-navigation/4colorbox.js</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/lib/js/gallery/grid-navigation/5init.js</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/css/gallery/grid-navigation/colorbox.css</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/css/gallery/grid-navigation/gridNavigation.css</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/css/gallery/grid-navigation/images/bg_thumb.jpg</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/css/gallery/grid-navigation/images/border.png</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/css/gallery/grid-navigation/images/controls.png</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/css/gallery/grid-navigation/images/index.html</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/css/gallery/grid-navigation/images/loader.gif</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/css/gallery/grid-navigation/images/loading.gif</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/css/gallery/grid-navigation/images/loading_background.png</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/css/gallery/grid-navigation/images/next.png</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/css/gallery/grid-navigation/images/overlay.png</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/css/gallery/grid-navigation/images/prev.png</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/opt/plugins/grid-navigation/</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/opt/plugins/grid-navigation/config.php</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/opt/plugins/grid-navigation/grid-navigation.tpl.php</file>
+    </files>
+  </installLog>
+</SobiProApp>

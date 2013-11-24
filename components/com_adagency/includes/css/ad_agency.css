@@ -1,0 +1,363 @@
+.adag_huge_title {
+	font-size: 26px;
+	font-weight:bold;
+}
+
+.adag_top_bottom_spacer {
+	margin: 23px 8px;
+}
+
+.ad_banners_container {
+	width: 100%;
+}
+
+.ad-padding-left{
+	padding-left: 35px;
+}
+
+.adag_reg{
+	font-weight:bold; 
+	font-size:18px;
+}
+
+.adag_bannersfa {
+	width: 47%;
+	float: left;
+	padding-right: 6px;
+	margin-bottom: 14px;
+}
+
+.clearad {
+	clear: both;
+}
+
+.ijadagencycampaigns2 .selctads_title {
+	color:#2166B3;
+	font-size:15px;
+	font-weight:bold;
+	margin:10px 0;
+	//padding-left:3px;
+}
+
+#adag_bannersfa_title1, #adag_bannersfa_title2, #adag_bannersfa_title3, #adag_bannersfa_title4, #adag_bannersfa_title5, #adag_bannersfa_title6, #adag_bannersfa_title7, #adag_bannersfa_title8 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.ad_imgs_bnr {
+	float: left;
+	margin-right: 8px;
+}
+
+.ad_desc_bnr {
+	/*float: left;*/
+	width: 100%;
+	padding: 5px 0px;
+}
+
+.adag_pending {
+	border: 1px solid #FF0000;
+	background-color: #FFFFCC;
+	margin-bottom: 12px;
+	padding: 2px 3px;
+}
+.ijadagencypackage2 {
+	margin: 15px 0 0 15px;
+	width: 93%;
+}
+.adag_reports {
+	//width: 200px;
+}
+#ttitle,#taction {
+	color:#0066CC;
+	text-decoration:underline;
+}
+#ttitle {
+	font-size:14px;
+}
+.ijadagencystandard {
+	width: 100%;
+}
+#ijadagencystandard {
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.ijadagencyflash {
+	width: 80%;
+}
+#ijadagencyflash {
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.ijadagencyadcode {
+	width: 100%;
+}
+#ijadagencyadcode {
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.ijadagencyfloating {
+	width: 80%;
+}
+#ijadagencyfloating {
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.ijadagencytransition {
+	width: 80%;
+}
+#ijadagencytransition {
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.ijadagencypopup {
+	width: 80%;
+}
+.ijadagencytextlink {
+	width: 80%;
+}
+#ijadagencytextlink {
+	margin-left: 1px;
+	margin-right: 1px;
+}
+#ijadagencypopup {
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.uplbtn {
+	position:relative; 
+	margin-left:92px;
+	background-color:transparent;
+	border: 0px;
+	width: 82px; 
+	height: 22px;
+}
+
+.cpanelimg {
+	cursor:pointer;
+	/*background:url("home.png") no-repeat scroll 0 0 transparent;
+	height:32px;
+	width:32px;*/
+	float:right;
+    font-size: 14px;
+    font-weight: normal;    
+}
+
+#cpanel_icons div {
+	float:left;
+	width:171px;
+	height:29px;
+	background:black;
+	border: 2px solid transparent;
+	padding-left:32px;
+	padding-top:13px;
+}
+#cpanel_icons div#myprofile {
+	background:url("cpanel_icons/profile.png") no-repeat left;
+}
+#cpanel_icons div#myads {
+	background:url("cpanel_icons/ads.png") no-repeat left;
+}
+#cpanel_icons div#myorders {
+	background:url("cpanel_icons/orders.png") no-repeat left;
+}
+#cpanel_icons div#myreports {
+	background:url("cpanel_icons/reports.png") no-repeat left;
+}
+#cpanel_icons div#mycampaigns {
+	background:url("cpanel_icons/campaign.png") no-repeat left;
+}
+#cpanel_icons div#packages {
+	background:url("cpanel_icons/packages.png") no-repeat left;
+}
+#cpanel_icons div#newbanner {
+	background:url("cpanel_icons/newad.png") no-repeat left;
+}
+#cpanel_icons div#newcampaign {
+	background:url("cpanel_icons/new_campaign.png") no-repeat left;
+}
+.azone {
+	padding: 5px;
+	border: 1px solid #eeeeee;
+	/*margin-top: 10px;*/
+}
+.w145 {
+	width: 145px;
+}
+.redMessage {
+	color: #FF0000;
+}
+.adslim {
+    color: #FF0000;
+}
+#hidden_adagency {
+    display: none;
+}
+.red_adag {
+    color: #FF0000 !important;
+}
+.cpanelimg img {
+    vertical-align: bottom;
+    font-size: 15px;
+    font-height: 15px;
+}
+.agency_continue {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23) );
+	background:-moz-linear-gradient( center top, #ffec64 5%, #ffab23 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	color:#333333;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px !important;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffee66;
+	min-height: 30px;
+    min-width: 100px;
+}
+
+.agency_continue2{
+	padding:0 !important;
+}
+
+
+input.agency_continue:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64) );
+	background:-moz-linear-gradient( center top, #ffab23 5%, #ffec64 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64');
+	background-color:#ffab23;
+}
+input.agency_continue:active {
+	position:relative;
+	top:1px;
+}
+input.agency_cancel {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px !important;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}
+input.agency_cancel:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+input.agency_cancel:active {
+	position:relative;
+	top:1px;
+}
+#adagency_container  {
+    /*font-weight: bold;*/
+    padding: 10px 0;
+}
+#adagency_container .jom_checkbox input {
+    margin-right: 7px;
+}
+#adagency_container .jom_checkbox {
+	margin: 3px 0;
+}
+#adagency_container .jom_opttitle {
+	display: inline-block;
+	margin-top: 8px;
+}
+
+.ijd-product-price {
+	color: #5EC315;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	width: 18%;
+	vertical-align: middle;
+}
+
+.ad_small_text{
+	color:#999999;
+	font-size:12px;
+}
+
+.campaign_title{
+	text-decoration:none;
+	color:#65ADC5 !important;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.camp_edit_pause{
+	text-decoration:none;
+	color:#65ADC5 !important;
+}
+
+.details_label{
+	font-size:12px !important;
+	font-weight: normal !important;
+	padding-right: 20px; !important;
+}
+
+.camp0, .camp1{
+	border-bottom:1px solid #999999 !important;
+}
+
+.expired_camp_text{
+	color:#FF0000;
+	font-size: 12px;
+}
+
+.ad_inactive_camp{
+	color:#FF0000;
+	font-size: 12px;
+}
+
+.ad_active_camp{
+	color:#669900;
+	font-size: 12px;
+}
+
+.ad_approved_yes{
+	color:#669900;
+	font-size: 12px;
+}
+
+.ad_approved_no{
+	color:#FF0000;
+	font-size: 12px;
+}
+
+.ad_paid_yes{
+	color:#669900;
+	font-size: 12px;
+}
+
+.ad_paid_no{
+	color:#FF0000;
+	font-size: 12px;
+}
+
+.delete_camp_button{
+	background-color: #CCCCCC;
+	border: 1px solid #666666;
+}

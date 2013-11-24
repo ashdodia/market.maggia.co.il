@@ -1,0 +1,102 @@
+/*
+INDEX:
+
+1. SETUP
+-1.1 Defaults
+
+2. INDEX
+-2.1 Index
+-2.2 Featured
+-2.3 Listing
+-2.4 Sidebar
+
+3. MY PHOTOS
+-3.1 My Photos
+
+4. ALBUM VIEW
+-4.1 Album View
+
+5. SINGLE PHOTO
+-5.1 Slider
+
+*/
+
+/*-------------------------------------------------------------------------------------------*/
+/* 1. SETUP */
+/*-------------------------------------------------------------------------------------------*/
+/* Defaults */
+#community-wrap.cPhotos {}
+
+/*-------------------------------------------------------------------------------------------*/
+/* 2. INDEX */
+/*-------------------------------------------------------------------------------------------*/
+/* 2.1 Index */
+#community-wrap.cPhotos.cIndex {}
+
+/* 2.2 Featured */
+#community-wrap.cPhotos .cIndex #cFeatured{position:relative;padding:0 0 5px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums{min-height:160px;border:1px solid #ddd;background:#eee;box-shadow:inset #fff 0 1px 0 #fff 0 1px 0;border-radius:3px 3px 0 0;margin:-1px -1px 0;padding:20px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .cFeaturedCover{width:250px;height:150px;position:absolute;background:#fff;border:#bbb solid 1px;overflow:hidden;padding:4px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .cFeaturedCover .cCoverWrapper{width:250px;height:150px;overflow:hidden}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .cFeaturedCover .cCoverWrapper img{min-width:250px;min-height:150px;max-width:400px;max-height:400px;margin:auto}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .photo-list-item{width:auto;display:block;clear:both;margin:0 0 10px 280px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .photo-list-item p{margin-bottom:3px;font-size:12px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .photo-list-item .cPhotoItem{float:left;position:relative;margin:0 2px 0 0}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .photo-list-item img{width:30px;border:#ccc solid 1px;background:#fff;margin-right:2px;padding:2px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .album-actions{left:135px;top:85px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .cFeaturedTitle{font-size:24px;line-height:1.2;text-align:left;margin:0 0 5px 280px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .cFeaturedTitle a{color:#333;letter-spacing:-1px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .cFeaturedMeta{color:#888;font-size:11px;clear:both;margin:0 0 5px 280px;padding:0}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .cFeaturedMeta a{color:#888}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .cFeaturedMeta li{float:left;list-style:none;margin-right:5px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .cFeaturedMeta li.cAuthor{background:url(../../images/f-l-author.png) no-repeat left center;padding-left:13px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .cFeaturedMeta li.cLastUpdated{background:url(../../images/f-l-time.png) no-repeat left center;padding-left:13px;margin-left:5px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .cFeaturedMeta li.cComment{background:url(../../images/f-l-comment.png) no-repeat left center;margin-left:5px;padding:0 0 0 13px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .cFeaturedMeta li.cFeatured-Map{background:url(../../images/f-l-pin.png) no-repeat left center;margin-left:3px;padding:0 0 0 12px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .cFeaturedDesc{font-size:12px;clear:both;margin:0 0 15px 280px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .cFeaturedTagged{font-size:12px;margin:0 0 10px 280px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .cCommentLink{margin:0 0 10px 280px}
+#community-wrap.cPhotos .cIndex #cFeatured .cFeaturedAlbums .cCommentLink a{background:#666;color:#fff;border-radius:3px;font-size:11px;padding:3px 6px}
+#community-wrap.cPhotos .cIndex #cFeatured .cSlider ul li{width:112px}
+#community-wrap.cPhotos .cIndex #cFeatured .cSlider ul li .cFeaturedImg img{width:90px;border:#ddd solid 1px;background:#fff;height:auto;padding:3px}
+#community-wrap.cPhotos .cIndex #cFeatured .cSlider ul li .cFeaturedImg .video-durationHMS{bottom:0;right:0}
+#community-wrap.cPhotos .cIndex #cFeatured .cSlider ul li .cFeaturedTitle{font-size:12px;line-height:13px;margin-bottom:0;text-align:center}
+#community-wrap.cPhotos .cIndex #cFeatured .cSlider ul li .cFeaturedTitle a{color:#333}
+#community-wrap.cPhotos .cIndex #cFeatured .cSlider ul li .cFeaturedTitle a:hover{background:none;color:#006bb8}
+#community-wrap.cPhotos .cIndex #cFeatured .cSlider ul li .cVideoDetails{font-size:11px}
+#community-wrap.cPhotos .cIndex #cFeatured .cSlider ul li .cVideoDetails a{display:inline}
+
+
+/* 2.3 Listing */
+#community-wrap.cPhotos.cIndex .cListing {}
+
+/* 2.4 Sidebar */
+#community-wrap.cPhotos.cIndex .cSidebar {}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* 3. MY PHOTOS */
+/*-------------------------------------------------------------------------------------------*/
+#community-wrap.cPhotos.cMyphotos {}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* 4. ALBUM VIEW */
+/*-------------------------------------------------------------------------------------------*/
+#community-wrap.cPhotos #cAlbum .cSidebar{float:left}
+#community-wrap.cPhotos #cAlbum .cMain{margin-left:240px;margin-right:0}
+#community-wrap.cPhotos #cAlbum .cMain #like-container{display:block;margin:0}
+#community-wrap.cPhotos #cAlbum .cMain .album-wall{display:block;float:left;width:100%}
+#community-wrap.cPhotos #cAlbum div.ccontent-avatar{margin:0 0 0 45px}
+#community-wrap.cPhotos #cAlbum .photo-list-item .cPhotoItem{float:left;position:relative;margin:2px}
+#community-wrap.cPhotos #cAlbum .photo-list-item .cPhotoItem img{width:65px;height:auto;margin:0!important}
+#community-wrap.cPhotos #cAlbum .photo-list-item{display:inline-block;width:100%;margin-bottom:10px}
+#community-wrap.cPhotos #cAlbum .community-album-details img{width:210px;height:auto;border:#EEE solid 1px;margin-bottom:5px;border-image:initial;padding:4px}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* 5. SINGLE PHOTO */
+/*-------------------------------------------------------------------------------------------*/
+/* 5.1 - Slider */
+#community-wrap.cPhotos #cPhoto .single-photo 	{width:auto;height:110px;}
+#community-wrap.cPhotos #cPhoto .cSlider .cSlider-nav .cSlider-nav-prev, #community-wrap.cPhotos #cPhoto .cSlider .cSlider-nav .cSlider-nav-next {top: 20px}

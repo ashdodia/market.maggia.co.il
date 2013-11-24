@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<view title="Advertiser Orders">
+		<message>
+			<![CDATA[
+				Advertiser Orders
+			]]>
+		</message>
+	</view>
+	<state>
+		<name>Advertiser Orders</name>
+		<description>Show orders for the advertiser logged in</description>
+	</state>
+</metadata>

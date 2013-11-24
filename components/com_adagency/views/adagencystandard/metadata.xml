@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<view title="Add Standard Ad">
+		<message>
+			<![CDATA[
+				Add Standard Ad Link
+			]]>
+		</message>
+	</view>
+	<state>
+		<name>Standard</name>
+		<description>Add Standard Ad Link</description>
+	</state>
+</metadata>

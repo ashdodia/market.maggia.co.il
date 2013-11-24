@@ -1,0 +1,31 @@
+/* 
+Phoca Download
+http://www.phoca.cz/ 
+http://www.phoca.cz/phocadownload
+*/
+
+
+#phoca-dl-categories-box div.pd-categoriesbox {
+	border: 1px dotted #ccc;
+}
+
+#phoca-dl-category-box .pd-filebox {
+	clear: both;
+	padding: 15px;
+	margin: 10px 0px;
+	border-bottom: 1px dotted #ccc;
+}
+
+#phoca-dl-category-box .pd-textonly {
+	clear: both;
+	margin: 10px 0px;
+}
+
+#phoca-dl-category-box .pd-category h3,
+#phoca-dl-file-box .pd-file h3{
+	background: 	transparent;
+	border: 0px;
+
+}
+
+

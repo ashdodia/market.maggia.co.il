@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SobiProApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://xml.sigsiu.net/SobiPro/application.xsd">
+  <name>Gallery Field</name>
+  <id>gallery_field</id>
+  <authorName>Sebastien Chartier</authorName>
+  <authorEmail>joomla@uuebdesign.com</authorEmail>
+  <authorUrl>http://joomla.uuebdesign.com/</authorUrl>
+  <copyright>Copyright (C) 2012 Sebastien Chartier</copyright>
+  <license>GNU General Public License v3</license>
+  <creationDate>2012-07-31</creationDate>
+  <fieldType typeId="gallery" fieldGroup="special">Gallery</fieldType>
+  <version>1.7</version>
+  <description>
+      Without Gallery Field, you must define a field for each image.
+      With Gallery Field, simply enter the minimum and maximum amount of pictures required.
+      Pictures can also be reorder using drag and drop
+      On your website, the field is displayed as a image gallery.
+  </description>
+  <language>
+    <file lang="en_GB">en-GB.SpApp.gallery.ini</file>
+    <file lang="fr_FR">fr-FR.SpApp.gallery.ini</file>
+  </language>
+  <files path="adm:field">
+    <folder>Adm/edit</folder>
+  </files>
+  <files path="css:gallery">
+    <folder>CssGallery/</folder>
+  </files>
+  <files path="css:gallery.horizontal">
+    <folder>CssGalleryHorizontal/</folder>
+  </files>
+  <files path="css:gallery.jqzoom">
+    <folder>CssGalleryJqzoom/</folder>
+  </files>
+  <files path="css:gallery.mooflow">
+    <folder>CssGalleryMooflow/</folder>
+  </files>
+  <files path="css:gallery.slimbox">
+    <folder>CssGallerySlimbox/</folder>
+  </files>
+  <files path="ctrl:">
+    <file>Ctrl/gallery.php</file>
+  </files>
+  <files path="ctrl:adm">
+    <file>CtrlAdm/gallery.php</file>
+  </files>
+  <files path="fields:">
+    <file>Fields/gallery.php</file>
+  </files>
+  <files path="fields:adm">
+    <file>FieldsAdm/gallery.php</file>
+  </files>
+  <files path="fields:gallery.tmpl">
+    <folder>FieldsGalleryTmpl/</folder>
+  </files>
+  <files path="js:gallery">
+    <folder>JsGallery/</folder>
+  </files>
+  <actions>
+    <action>gallery.*</action>
+  </actions>
+  <requirements>
+    <core version="1.0.0.1000"/>
+    <field>image</field>
+  </requirements>
+  <installLog>
+    <actions>
+      <action>gallery.*</action>
+    </actions>
+    <modified>
+      <file>
+        <path>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/administrator/components/com_sobipro/field/edit/index.html</path>
+        <size>248</size>
+        <checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
+        <backup>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/etc/installed/fields/gallery_field/backup/Adm/edit/index.html</backup>
+      </file>
+    </modified>
+    <files>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/administrator/components/com_sobipro/field/edit/gallery.ini</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/administrator/components/com_sobipro/field/edit/gallery.php</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/horizontal.css</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/imagebox.css</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/index.html</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/jfzoom.css</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/mooflow.css</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/scrollgallery.css</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/slimbox.css</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/horizontal/</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/horizontal/80.png</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/horizontal/index.html</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/horizontal/loading-light.gif</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/jqzoom/</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/jqzoom/index.html</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/jqzoom/magnify-over.png</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/jqzoom/magnify.png</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/jqzoom/zoomloader.gif</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/mooflow/</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/mooflow/ajax_loader.gif</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/mooflow/index.html</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/mooflow/left-slider.gif</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/mooflow/left.gif</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/mooflow/loader.gif</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/mooflow/middle-slider.gif</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/mooflow/middle.gif</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/mooflow/open_image.png</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/mooflow/open_link.png</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/mooflow/play.gif</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/mooflow/resize.gif</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/mooflow/right.gif</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/mooflow/stop.gif</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/mooflow/tooltip.png</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/slimbox/</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/slimbox/closelabel.gif</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/slimbox/index.html</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/slimbox/loading.gif</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/slimbox/nextlabel.gif</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/media/sobipro/css/gallery/slimbox/prevlabel.gif</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/lib/ctrl/gallery.php</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/lib/ctrl/adm/gallery.php</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/opt/fields/gallery.php</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/opt/fields/adm/gallery.php</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/opt/fields/gallery/tmpl/</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/opt/fields/gallery/tmpl/horizontal.php</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/opt/fields/gallery/tmpl/index.html</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/opt/fields/gallery/tmpl/jqzoom.php</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/opt/fields/gallery/tmpl/modern.php</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/opt/fields/gallery/tmpl/mooflow.php</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/opt/fields/gallery/tmpl/scrollgallery.php</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/opt/fields/gallery/tmpl/singleimage.php</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/lib/js/gallery/</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/lib/js/gallery/gallery-edit.js</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/lib/js/gallery/imagebox.js</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/lib/js/gallery/index.html</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/lib/js/gallery/jqzoom.js</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/lib/js/gallery/mooflow.js</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/lib/js/gallery/scrollgallery.js</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/components/com_sobipro/lib/js/gallery/slimbox.js</file>
+      <file>/mnt/ebs/home/powerbuy/domains/shop.powerbuy.co.il/public_html/language/en-GB/en-GB.SpApp.gallery.ini</file>
+    </files>
+    <field>gallery</field>
+  </installLog>
+</SobiProApp>

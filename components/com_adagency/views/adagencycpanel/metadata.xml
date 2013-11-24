@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<view title="Advertiser Control Panel">
+		<message>
+			<![CDATA[
+				Advertiser Control Panel
+			]]>
+		</message>
+	</view>
+	<state>
+		<name>Advertiser Control Panel</name>
+		<description>Advertiser Control Panel</description>
+	</state>
+</metadata>

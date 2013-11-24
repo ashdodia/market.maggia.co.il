@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<view title="Add Affiliate Ad">
+		<message>
+			<![CDATA[
+				Add Affiliate Ad Link
+			]]>
+		</message>
+	</view>
+	<state>
+		<name>Affiliate</name>
+		<description>Add Affiliate Ad Link</description>
+	</state>
+</metadata>

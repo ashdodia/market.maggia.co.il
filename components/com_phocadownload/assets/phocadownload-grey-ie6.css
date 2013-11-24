@@ -1,0 +1,7 @@
+#phoca-dl-categories-box div.pd-categories {
+	position:	static;
+}
+#phoca-dl-categories-box .pd-category {
+	background: #fff url('images/folder.png') 0 0 no-repeat;
+	line-height:1.5;
+}

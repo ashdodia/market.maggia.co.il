@@ -1,0 +1,509 @@
+
+/* Created at: Mon Nov 18 6:57:22 UTC 2013 */
+
+/**  
+========
+File: /media/sobipro/css/sobipro.css
+========
+*/
+/**
+ * @version: $Id: sobipro.css 551 2011-01-11 14:34:26Z Radek Suski $
+ * @package: SobiPro Library
+ * ===================================================
+ * @author
+ * Name: Sigrid Suski & Radek Suski, Sigsiu.NET GmbH
+ * Email: sobi[at]sigsiu.net
+ * Url: http://www.Sigsiu.NET
+ * ===================================================
+ * @copyright Copyright (C) 2006 - 2011 Sigsiu.NET GmbH (http://www.sigsiu.net). All rights reserved.
+ * @license see http://www.gnu.org/licenses/lgpl.html GNU/LGPL Version 3.
+ * You can use, redistribute this file and/or modify it under the terms of the GNU Lesser General Public License version 3
+ * ===================================================
+ * $Date: 2011-01-11 15:34:26 +0100 (Tue, 11 Jan 2011) $
+ * $Revision: 551 $
+ * $Author: Radek Suski $
+ * File location: components/com_sobipro/media/css/sobipro.css $
+ */
+
+div#SobiPro {
+	margin-bottom: 10px;
+}
+
+div#sobiProFooter, div#sobiProFooter a {
+	font-size: 9px;
+	color: #999999;
+	padding-top: 10px;
+	text-decoration: none;
+
+}
+/**  
+========
+File: /media/sobipro/css/gallery/ad-gallery/ad-gallery.css
+========
+*/
+/**
+ * Copyright (c) 2012 Anders Ekdahl (http://coffeescripter.com/)
+ * Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
+ * and GPL (http://www.opensource.org/licenses/gpl-license.php) licenses.
+ *
+ * Version: 1.2.7
+ *
+ * Demo and documentation: http://coffeescripter.com/code/ad-gallery/
+ */
+.ad-gallery {
+  width: 600px;
+}
+.ad-gallery, .ad-gallery * {
+  margin: 0;
+  padding: 0;
+}
+  .ad-gallery .ad-image-wrapper {
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+    .ad-gallery .ad-image-wrapper .ad-loader {
+      position: absolute;
+      z-index: 10;
+      top: 48%;
+      left: 48%;
+      border: 1px solid #CCC;
+    }
+    .ad-gallery .ad-image-wrapper .ad-next {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 25%;
+      height: 100%;
+      cursor: pointer;
+      display: block;
+      z-index: 200;
+    }
+    .ad-gallery .ad-image-wrapper .ad-prev {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 25%;
+      height: 100%;
+      cursor: pointer;
+      display: block;
+      z-index: 200;
+    }
+    .ad-gallery .ad-image-wrapper .ad-prev, .ad-gallery .ad-image-wrapper .ad-next {
+      /* Or else IE will hide it */
+      background: url(http://market.maggia.co.il/media/sobipro/css/gallery/ad-gallery/images/trans.gif);
+    }
+      .ad-gallery .ad-image-wrapper .ad-prev .ad-prev-image, .ad-gallery .ad-image-wrapper .ad-next .ad-next-image {
+        background: url(http://market.maggia.co.il/media/sobipro/css/gallery/ad-gallery/images/ad_prev.png);
+        width: 30px;
+        height: 30px;
+        display: none;
+        position: absolute;
+        top: 47%;
+        left: 0;
+        z-index: 101;
+      }
+      .ad-gallery .ad-image-wrapper .ad-next .ad-next-image {
+        background: url(http://market.maggia.co.il/media/sobipro/css/gallery/ad-gallery/images/ad_next.png);
+        width: 30px;
+        height: 30px;
+        right: 0;
+        left: auto;
+      }
+    .ad-gallery .ad-image-wrapper .ad-image {
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+      z-index: 9;
+    }
+      .ad-gallery .ad-image-wrapper .ad-image a img {
+        border: 0;
+      }
+      .ad-gallery .ad-image-wrapper .ad-image .ad-image-description {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        padding: 7px;
+        text-align: left;
+        width: 100%;
+        z-index: 2;
+        background: url(http://market.maggia.co.il/media/sobipro/css/gallery/ad-gallery/images/opa75.png);
+        color: #000;
+      }
+      * html .ad-gallery .ad-image-wrapper .ad-image .ad-image-description {
+        background: none;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (enabled=true, sizingMethod=scale, src='opa75.png');
+      }
+        .ad-gallery .ad-image-wrapper .ad-image .ad-image-description .ad-description-title {
+          display: block;
+        }
+  .ad-gallery .ad-controls {
+    height: 20px;
+  }
+    .ad-gallery .ad-info {
+      float: left;
+    }
+    .ad-gallery .ad-slideshow-controls {
+      float: right;
+    }
+      .ad-gallery .ad-slideshow-controls .ad-slideshow-start, .ad-gallery .ad-slideshow-controls .ad-slideshow-stop {
+        padding-left: 5px;
+        cursor: pointer;
+      }
+      .ad-gallery .ad-slideshow-controls .ad-slideshow-countdown {
+        padding-left: 5px;
+        font-size: 0.9em;
+      }
+    .ad-gallery .ad-slideshow-running .ad-slideshow-start {
+      cursor: default;
+      font-style: italic;
+    }
+  .ad-gallery .ad-nav {
+    width: 100%;
+    position: relative;
+  }
+    .ad-gallery .ad-forward, .ad-gallery .ad-back {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      z-index: 10;
+    }
+    /* IE 6 doesn't like height: 100% */
+    * html .ad-gallery .ad-forward, .ad-gallery .ad-back {
+      height: 100px;
+    }
+    .ad-gallery .ad-back {
+      cursor: pointer;
+      left: -20px;
+      width: 13px;
+      display: block;
+      background: url(http://market.maggia.co.il/media/sobipro/css/gallery/ad-gallery/images/ad_scroll_back.png) 0px 22px no-repeat;
+    }
+    .ad-gallery .ad-forward {
+      cursor: pointer;
+      display: block;
+      right: -20px;
+      width: 13px;
+      background: url(http://market.maggia.co.il/media/sobipro/css/gallery/ad-gallery/images/ad_scroll_forward.png) 0px 22px no-repeat;
+    }
+    .ad-gallery .ad-nav .ad-thumbs {
+      overflow: hidden;
+      width: 100%;
+    }
+      .ad-gallery .ad-thumbs .ad-thumb-list {
+        float: left;
+        width: 9000px;
+        list-style: none;
+      }
+        .ad-gallery .ad-thumbs li {
+          float: left;
+          padding-right: 5px;
+          list-style: none;
+        }
+          .ad-gallery .ad-thumbs li a {
+            display: block;
+          }
+            .ad-gallery .ad-thumbs li a img {
+              border: 3px solid #CCC;
+              display: block;
+            }
+            .ad-gallery .ad-thumbs li a.ad-active img {
+              border: 3px solid #616161;
+            }
+/* Can't do display none, since Opera won't load the images then */
+.ad-preloads {
+  position: absolute;
+  left: -9000px;
+  top: -9000px;
+}
+
+/**  
+========
+File: /templates/jbvintage/html/com_sobipro/shop_fixdiscount/css/default.css
+========
+*/
+/**
+ * @version: $Id: default.css 2138 2012-01-10 10:07:47Z Radek Suski $
+ * @package: SobiPro Library
+ * ===================================================
+ * @author
+ * Name: Sigrid Suski & Radek Suski, Sigsiu.NET GmbH
+ * Email: sobi[at]sigsiu.net
+ * Url: http://www.Sigsiu.NET
+ * ===================================================
+ * @copyright Copyright (C) 2006 - 2012 Sigsiu.NET GmbH (http://www.sigsiu.net). All rights reserved.
+ * @license see http://www.gnu.org/licenses/lgpl.html GNU/LGPL Version 3.
+ * You can use, redistribute this file and/or modify it under the terms of the GNU Lesser General Public License version 3
+ * ===================================================
+ * $Date: 2012-01-10 11:07:47 +0100 (Tue, 10 Jan 2012) $
+ * $Revision: 2138 $
+ * $Author: Radek Suski $
+ * File location: components/com_sobipro/usr/templates/default/css/default.css $
+ */
+span.spEntriesListEditLink a,
+span.spEntryEditLink a {
+	display:block;
+	float: right;
+	width: 80px;
+	border-style:solid;
+	text-align: center;
+	padding: 4px;
+	font-size: 12px;
+	border: 1px solid silver;
+}
+
+span.spEntryEditLink a:active,
+span.spEntryEditLink a:focus,
+span.spEntryEditLink a:hover,
+span.spEntryEditLink a,
+span.spEntriesListEditLink a:active,
+span.spEntriesListEditLink a:focus,
+span.spEntriesListEditLink a:hover,
+span.spEntriesListEditLink a {
+	text-decoration: none!important;
+	background: none!important;
+}
+
+select.spAlphaMenuSwitch {
+	border: 1px solid #ccc
+}
+
+div#SobiPro {
+	width: 95%;
+	/* float:left; */
+}
+
+div.sigsiuTree {
+	text-align: left!important;
+}
+div.SPDetailEntry {
+}
+
+div.spCatListCell {
+	padding: 5px;
+	float: left;
+	margin: 2px;
+}
+
+img.spFieldsData {
+	margin: 5px;
+}
+
+div.spEntriesListContainer {
+	height: 100%;
+}
+
+div.spEntriesListCell {
+	margin: 2px 0 0 3px;
+	padding: 10px;
+    border: solid #FFFFFF;
+	border-width: 5px 0px 0px 0px;
+	float: left;
+	position: relative;
+	background-color: #FBFBFB;
+}
+
+span.spEntriesListTitle {
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	display: block;
+	font-weight: bold;
+	border: solid #CCCCCC;
+	padding-bottom: 8px;
+	padding-left: 3px;
+	border-width: 0px 0px 1px 0px;
+}
+
+div.spEntriesListRow {
+	clear:both;
+	margin-top: 1px;
+}
+
+div.spEntryCats {
+	font-size: 10px;
+	overflow: hidden;
+	height: 20px;
+	margin-top: 5px;
+}
+
+div.spSectionDesc {
+	padding: 5px;
+}
+
+/**
+ * Style of the submenu toolbar from khepri admin template
+ * Author: Andy Miller
+ */
+
+div.spTopMenu {
+	background:none repeat scroll 0 0 #F6F6F6;
+	margin-bottom:10px;
+}
+
+div.SPt, div.SPb {
+	height:6px;
+	margin:0;
+	overflow:hidden;
+	padding:0;
+}
+
+div.SPm {
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	padding:0 8px;
+}
+
+ul.spTopMenu {
+	list-style:none outside none;
+	margin:0!important;
+	padding:0;
+}
+
+ul.spTopMenu li {
+	float:left;
+	padding:0;
+	font-size: 12px;
+	border-right:1px solid #CCCCCC;
+	color:#0B55C4;
+	font-weight:bold;
+	height:12px;
+	line-height:12px;
+	padding:0 15px!important;
+	list-style-type: none;
+	line-height: 12px!important;
+    background-image: none; /*because often defined :-(*/
+}
+ul.spTopMenu li a:link,
+ul.spTopMenu li a:visited,
+ul.spTopMenu li a:hover,
+ul.spTopMenu li a:focus,
+ul.spTopMenu li a:active {
+	text-decoration: none;
+	font-weight: normal;
+	background:#F6F6F6;
+}
+
+div.spTopMenu div.SPb {
+	background:url("http://market.maggia.co.il/media/sobipro/styles/j_border.png") repeat-x scroll 0 100% transparent;
+}
+
+div.spTopMenu div.SPb div.SPb {
+	background:url("http://market.maggia.co.il/media/sobipro/styles/j_crn_br_dark.png") no-repeat scroll 100% 0 transparent;
+}
+
+div.spTopMenu div.SPb div.SPb div.SPb {
+	background:url("http://market.maggia.co.il/media/sobipro/styles/j_crn_bl_dark.png") no-repeat scroll 0 0 transparent;
+}
+
+div.spTopMenu div.SPt {
+	background:url("http://market.maggia.co.il/media/sobipro/styles/j_border.png") repeat-x scroll 0 0 transparent;
+}
+
+div.spTopMenu div.SPt div.SPt {
+	background:url("http://market.maggia.co.il/media/sobipro/styles/j_crn_tr_dark.png") no-repeat scroll 100% 0 transparent;
+}
+
+div.spTopMenu div.SPt div.SPt div.SPt {
+	background:url("http://market.maggia.co.il/media/sobipro/styles/j_crn_tl_dark.png") no-repeat scroll 0 0 transparent;
+}
+
+/**
+ * ^^^ Style of the submenu toolbar from khepri admin template
+ */
+
+span.spCatListSubCats {
+	font-size: 10px;
+}
+
+div.spCatsListTitle {
+	padding-top: 2px;
+}
+
+div.spCatsListTitle a {
+	font-weight: bold;
+}
+
+div.spCatsListIntrotext {
+
+}
+
+div.spCatListIcon {
+	float: left;
+	margin-right: 8px;
+}
+div.spCatListIcon img {
+  border: none;
+}
+
+div.spPaymentHeader {
+	margin: 1px;
+	background-color: #EEEEEE;
+	float: left;
+	padding: 2px;
+	padding-left: 5px;
+}
+
+div.spPaymentPosition {
+	margin: 1px;
+	background-color: #f7f7f7;
+	float: left;
+	padding: 2px;
+	padding-left: 5px;
+}
+div.spPaymentExpl {
+	font-size: 15px;
+	font-weight: bold;
+	margin: 3px;
+}
+div.spPaymentDiscount,
+div.spPaymentSum {
+	font-weight: bold;
+	margin: 3px;
+}
+
+div.spPaymentSumPosition {
+	margin: 1px;
+	background-color: #f7f7f7;
+	float: left;
+	padding: 2px;
+	padding-left: 5px;
+}
+div.spPaymentSumDesc {
+	margin: 1px;
+	background-color: #EEEEEE;
+	float: left;
+	padding: 2px;
+	padding-left: 5px;
+}
+
+div.spPaymentPreview button {
+	margin: 5px;
+}
+
+a.spDisabled:hover {
+	text-decoration: none;
+}
+
+div.spAlphaMenu {
+	width:100%;
+	text-align:center!important;
+}
+
+div.spAlphaMenu span {
+	font-weight: normal;
+	font-size: 14px;
+	color: #868686;
+}
+div.spAlphaMenu a {
+	font-weight: bold;
+	text-decoration: none!important;
+}
+
+span.spAlphaLetterSelected  a {
+	color: #551A8B;
+	font-size: 16px;
+	font-style: italic;
+}

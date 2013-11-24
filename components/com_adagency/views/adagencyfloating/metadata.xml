@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<view title="Add Floating Ad">
+		<message>
+			<![CDATA[
+				Add Floating Ad Link
+			]]>
+		</message>
+	</view>
+	<state>
+		<name>Floating</name>
+		<description>Add Floating Ad Link</description>
+	</state>
+</metadata>

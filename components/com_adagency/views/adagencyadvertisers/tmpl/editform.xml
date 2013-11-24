@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Register Page/My Profile">
+		<message>
+			<![CDATA[
+				Register Page/My Profile
+			]]>
+		</message>
+	</layout>
+	<state>
+		<name>Register Page/My Profile</name>
+		<description>Register Page/My Profile</description>
+	</state>
+</metadata>

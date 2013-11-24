@@ -1,0 +1,125 @@
+/*
+INDEX:
+
+1. SETUP
+-1.1 Defaults
+
+2. INDEX
+-2.1 Index
+-2.2 Featured
+-2.3 Listing
+-2.4 Sidebar
+
+3. PREFERENCES & EDIT PROFILE
+-3.1 Navigation
+-3.2 Container
+
+4. NOTIFICATIONS STREAM PAGE
+-4.1 Data Stream
+*/
+
+/*-------------------------------------------------------------------------------------------*/
+/* 1. SETUP */
+/*-------------------------------------------------------------------------------------------*/
+/* Defaults */
+#community-wrap.cProfile {}
+
+/*-------------------------------------------------------------------------------------------*/
+/* 2. INDEX */
+/*-------------------------------------------------------------------------------------------*/
+/* 2.1 Index */
+#community-wrap.cProfile.cIndex {}
+
+/* 2.2 Featured */
+#community-wrap.cProfile.cIndex .cFeatured {}
+
+/* 2.3 Listing */
+#community-wrap.cProfile.cIndex .cListing {}
+
+/* 2.4 Sidebar */
+#community-wrap.cProfile.cIndex .cSidebar {}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* 3. PREFERENCES & EDIT PROFILE PAGE */
+/*-------------------------------------------------------------------------------------------*/
+#community-wrap.cProfile .cPreferences, #community-wrap.cProfile .cEdit  {margin-top:20px;}
+/* 3.1 Navigation */
+#community-wrap.cProfile .cPreferences .cProfile-PrefNav,
+#community-wrap.cProfile .cEdit .cProfile-ProfileNav { width:160px; float:left; height:100%; margin-top:30px; font-size:12px; }
+#community-wrap.cProfile .cPreferences .cProfile-PrefNav ul,
+#community-wrap.cProfile .cEdit .cProfile-ProfileNav ul {list-style-type:none;margin:0;padding:0;}
+#community-wrap.cProfile .cPreferences .cProfile-PrefNav ul li,
+#community-wrap.cProfile .cEdit .cProfile-ProfileNav ul li
+{height:25px; line-height:25px; border-bottom:1px solid #eee; border-bottom:1px solid hsla(0,0%,20%,0.1); background:none; }
+#community-wrap.cProfile .cPreferences .cProfile-PrefNav ul li:first-child,
+#community-wrap.cProfile .cEdit .cProfile-ProfileNav ul li:first-child
+{border-top:1px solid #eee; border-top:1px solid hsla(0,0%,20%,0.1);}
+#community-wrap.cProfile .cPreferences .cProfile-PrefNav ul li a,
+#community-wrap.cProfile .cEdit .cProfile-ProfileNav ul li a
+{display:block;padding-left:10px;color:#424242;}
+#community-wrap.cProfile .cPreferences .cProfile-PrefNav ul li a.selected,
+#community-wrap.cProfile .cEdit .cProfile-ProfileNav ul li a.selected
+{font-weight:bold;background:#eee;background:hsla(0,0%,20%,0.1);}
+#community-wrap.cProfile .cPreferences .cProfile-PrefNav ul li a:hover,
+#community-wrap.cProfile .cEdit .cProfile-ProfileNav ul li a:hover
+{background:#eee;background:hsla(0,0%,20%,0.1);}
+#community-wrap.cProfile .cPreferences .cProfile-PrefNav .saveButton,
+#community-wrap.cProfile .cEdit .cProfile-ProfileNav .saveButton
+{text-align:center;}
+#community-wrap.cProfile .cPreferences .cProfile-PrefNav .saveButton input,
+#community-wrap.cProfile .cEdit .cProfile-ProfileNav .saveButton input
+{width:75px; padding:5px 10px; margin-top:20px;cursor:pointer;}
+/* 3.2 Tab Container */
+#community-wrap.cProfile .cPreferences .cProfile-PrefContainer,
+#community-wrap.cProfile .cEdit .cProfile-ProfContainer
+{margin-left:160px;height:100%;padding-left:20px; border-left:1px solid #eee; border-left:1px solid hsla(0,0%,20%,0.1);  font-size:12px; }
+#community-wrap.cProfile .cPreferences .cProfile-PrefContainer #blocklistPref {display:inline-block; width:100%;}
+#community-wrap.cProfile .cPreferences .cProfile-PrefContainer .ctitle,
+#community-wrap.cProfile .cEdit .cProfile-ProfContainer .ctitle
+{border-bottom:1px solid #eee; border-bottom:1px solid hsla(0,0%,20%,0.1); margin-bottom:10px;}
+#community-wrap.cProfile .cPreferences .cProfile-PrefContainer .ctitle h2,
+#community-wrap.cProfile .cEdit .cProfile-ProfContainer .ctitle h2
+{padding:10px 0;margin:0;font-family:inherit; letter-spacing:normal;font-weight:normal;}
+#community-wrap.cProfile .cPreferences .cProfile-PrefContainer label,
+#community-wrap.cProfile .cEdit .cProfile-ProfContainer label,
+{font-weight:normal;font-size:12px;margin:0;width:100%;}
+#community-wrap.cProfile .cPreferences .cProfile-PrefContainer .formtable,
+#community-wrap.cProfile .cEdit .cProfile-ProfContainer .formtable
+{margin-bottom:30px}
+#community-wrap.cProfile .cPreferences .cProfile-PrefContainer .formtable label {width:100%;margin:0;}
+#community-wrap.cProfile .cPreferences .cProfile-PrefContainer .formtable tr td {background:inherit;}
+#community-wrap.cProfile .cPreferences .cProfile-PrefContainer .formtable.emailPref tr,
+#community-wrap.cProfile .cPreferences .cProfile-PrefContainer .formtable.emailPref td {line-height:15px;padding:5px 0;font-size:12px;vertical-align:middle;}
+#community-wrap.cProfile .cPreferences .cProfile-PrefContainer .formtable.emailPref tr:hover {background:#f9f9f9;cursor:pointer;}
+#community-wrap.cProfile .cPreferences .cProfile-PrefContainer .formtable.emailPref tr.tableHeader td label {text-align:center;}
+#community-wrap.cProfile .cPreferences .cProfile-PrefContainer .formtable.emailPref tr.tableHeader:hover,
+#community-wrap.cProfile .cPreferences .cProfile-PrefContainer .formtable.emailPref tr.section:hover {background:none;}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* 4. NOTIFICATIONS STREAM PAGE */
+/*-------------------------------------------------------------------------------------------*/
+/* 4.1 Data Stream */
+#community-wrap.cProfile .cNotifications {margin-top:20px;}
+#community-wrap.cProfile .cNotifications .cProfile-DataStream {margin-top:20px;font-size:12px;}
+#community-wrap.cProfile .cNotifications .cProfile-DataStream a {font-weight:normal;}
+#community-wrap.cProfile .cNotifications .cProfile-DataStream a:hover {text-decoration:underline;}
+#community-wrap.cProfile .cNotifications .cProfile-DataStream li {display:inline-block;width:100%; line-height:30px; height:30px;padding:7px 0;border-bottom:1px solid #eee; border-bottom:1px solid hsla(0,0%,40%,0.1); background:none; cursor:pointer;}
+#community-wrap.cProfile .cNotifications .cProfile-DataStream li:last-child {border-bottom:none;}
+#community-wrap.cProfile .cNotifications .cProfile-DataStream img {display:block;width:26px; height:26px; float:left; margin:0 10px;
+border:2px solid white;-webkit-box-shadow: 0px 0px 1px 0px #424242;-moz-box-shadow: 0px 0px 1px 0px #424242;box-shadow: 0px 0px 1px 0px #424242;}
+#community-wrap.cProfile .cNotifications .cProfile-DataStream .time {font-style:italic;font-size:11px;opacity:0.8;}
+
+#community-wrap.cSearch  #cFeatured .cSlider ul li {width: 178px; border: #CCC solid 1px; margin: 0 10px 0 0; box-shadow: #f5f5f5 inset 0 1px 0; background: #ebebeb; border-radius: 5px; height: 58px;}
+#community-wrap.cSearch  #cFeatured .cSlider ul li .cFeaturedImg {float: left; height: 48px; padding: 5px 0; width: 60px; border-right: #ccc solid 1px;}
+#community-wrap.cSearch  #cFeatured .cSlider ul li .cFeaturedImg img {width: 40px; height: auto; border:#ddd solid 1px; padding: 3px; background: #fff;}
+#community-wrap.cSearch  #cFeatured .cSlider ul li a.cFeaturedImg {box-shadow: none}
+#community-wrap.cSearch  #cFeatured .cSlider ul li .cFeaturedTitle {text-align: left; margin: 0 0 3px 70px; line-height:1.1; padding: 5px 0 0 0}
+#community-wrap.cSearch  #cFeatured .cSlider ul li .cFeaturedTitle a {color: #333}
+#community-wrap.cSearch .cSlider .cSlider-nav .cSlider-nav-prev, #community-wrap.cSearch .cSlider .cSlider-nav .cSlider-nav-next {top:10px;}
+
+#community-wrap.cSearch #cFeatured .photo-list-item {margin: 0 0 10px 280px; width: auto; display: block; clear: both;}
+#community-wrap.cSearch #cFeatured .photo-list-item p {margin-bottom: 3px; font-size: 12px;}
+#community-wrap.cSearch #cFeatured .photo-list-item .cPhotoItem { float: left; position: relative; margin: 0 2px 0 0;}
+#community-wrap.cSearch #cFeatured .photo-list-item img {width: 30px; border: none; border: #ccc solid 1px; background: #fff; padding: 2px; margin-right:2px;}

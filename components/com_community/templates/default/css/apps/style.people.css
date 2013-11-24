@@ -1,0 +1,31 @@
+/*
+INDEX:
+1. SETUP
+-1.1 Defaults
+
+2. INDEX
+-2.1 People search
+-2.2 Featured
+*/
+
+/*-------------------------------------------------------------------------------------------*/
+/* 1. SETUP */
+/*-------------------------------------------------------------------------------------------*/
+/* Defaults */
+
+/*-------------------------------------------------------------------------------------------*/
+/* 2. INDEX */
+/*-------------------------------------------------------------------------------------------*/
+/* 2.1 Index */
+#community-wrap.cSearch #cFeatured .cFeaturedFriends{min-height:160px;border:1px solid #DDD;background:#EEE;box-shadow:inset #fff 0 1px 0 #fff 0 1px 0;border-radius:3px 3px 0 0;margin:-6px -1px 0;padding:20px}
+#community-wrap.cSearch #cFeatured .cFeaturedFriends .jsApLike{margin-top:50px}
+#community-wrap.cSearch #cFeatured .cFeaturedFriends .cFeaturedCover{width:150px;height:150px;position:absolute;background:#FFF;border:#BBB solid 1px;overflow:hidden;padding:4px}
+#community-wrap.cSearch #cFeatured .cFeaturedFriends .cFeaturedTitle,#community-wrap.cSearch #cFeatured .cFeaturedFriends #user-status,#community-wrap.cSearch #cFeatured .cFeaturedFriends #friend-list{font-size:24px;line-height:1.2;text-align:left;margin:0 0 5px 200px}
+#community-wrap.cSearch #cFeatured .cFeaturedFriends #user-status{font-size:12px;margin-bottom:20px}
+#community-wrap.cSearch #cFeatured .cFeaturedFriends #friend-list{font-size:14px}
+#community-wrap.cSearch #cFeatured .cFeaturedFriends .photo-list-item{margin:10px 0}
+#community-wrap.cSearch #cFeatured .album-actions{left:12px;top:15px}
+#community-wrap.cSearch #cFeatured .cFeaturedFriends .cFeaturedCover .cCoverWrapper{width:150px;height:150px;overflow:hidden}
+#community-wrap.cSearch #cFeatured .cFeaturedFriends .cFeaturedCover .cCoverWrapper img{min-width:150px;min-height:150px;max-width:400px;max-height:400px;margin:auto}
+#community-wrap.cSearch #cFeatured .cFeaturedContent{background:#e3e3e3;border:#d6d6d6 solid 1px;border-top:#f5f5f5 solid 1px;border-radius:0 0 3px 3px;margin:0 -1px -1px}
+#community-wrap.cSearch .cSlider .cSlider-nav .cSlider-nav-prev,#community-wrap.cGroups .cSlider .cSlider-nav .cSlider-nav-next{top:10px}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SobiProApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://xml.sigsiu.net/SobiPro/application.xsd">
+  <name>Light box addon</name>
+  <id>lightbox</id>
+  <authorName>Mostafa Shalkami</authorName>
+  <authorEmail>info@sobimarket.net</authorEmail>
+  <authorUrl>http://www.sobimarket.net</authorUrl>
+  <copyright>Copyright (C) 2009-2011 Sobimarket.net</copyright>
+  <license>GNU General Public License v3</license>
+  <creationDate>2011-12-06</creationDate>
+  <type>global_application</type>
+  <version>1.0.0</version>
+  <description>lightbox addon to gallery plugin</description>
+  <files path="js:gallery">
+    <folder>tpl/js/</folder>
+  </files>
+  <files path="css:gallery">
+    <folder>tpl/css/</folder>
+  </files>
+  <files path="img:gallery">
+    <folder>tpl/images/</folder>
+  </files>
+  <files path="home:.">
+    <file>config.php</file>
+    <file>lightbox.tpl.php</file>
+  </files>
+  <actions>
+    <action>gallery</action>
+  </actions>
+  <installLog>
+    <actions>
+      <action>gallery</action>
+    </actions>
+    <modified/>
+    <files>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/lib/js/gallery/lightbox/box.js</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/lib/js/gallery/lightbox/init.js</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/css/gallery/lightbox/lightbox.css</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/gallery</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/gallery/lightbox/index.html</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/gallery/lightbox/lightbox-blank.gif</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/gallery/lightbox/lightbox-btn-close.gif</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/gallery/lightbox/lightbox-btn-next.gif</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/gallery/lightbox/lightbox-btn-prev.gif</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/gallery/lightbox/lightbox-ico-loading.gif</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/opt/plugins/lightbox/</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/opt/plugins/lightbox/config.php</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/opt/plugins/lightbox/lightbox.tpl.php</file>
+    </files>
+  </installLog>
+</SobiProApp>

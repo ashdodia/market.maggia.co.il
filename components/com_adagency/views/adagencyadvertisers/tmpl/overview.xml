@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Overview">
+		<message>
+			<![CDATA[
+				Overview
+			]]>
+		</message>
+	</layout>
+	<state>
+		<name>Overview</name>
+		<description>Overview</description>
+	</state>
+</metadata>

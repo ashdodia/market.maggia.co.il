@@ -1,0 +1,23 @@
+#changecb_container {
+    padding: 10px;
+}
+
+#changecb_container .content_table {
+    width: 400px;
+}
+
+#changecb_container .componentheading {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 0 10px;
+    text-align: left;
+}
+
+#changecb_container .sectiontableheader {
+    background: none repeat scroll 0 0 #EFEFEF;
+    border-right: 1px solid #FFFFFF;
+    color: #333333;
+    font-weight: bold;
+    padding: 4px;
+}

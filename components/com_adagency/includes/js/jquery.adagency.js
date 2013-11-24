@@ -1,0 +1,1 @@
+ADAG = jQuery.noConflict();

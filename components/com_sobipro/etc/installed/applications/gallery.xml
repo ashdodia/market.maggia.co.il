@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SobiProApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://xml.sigsiu.net/SobiPro/application.xsd">
+  <name>sobipro gallery plugin</name>
+  <id>gallery</id>
+  <authorName>Mostafa Shalkami</authorName>
+  <authorEmail>info@sobimarket.net</authorEmail>
+  <authorUrl>http://www.sobimarket.net</authorUrl>
+  <copyright>Copyright (C) 2009-2011 Mostafa Shalkami</copyright>
+  <license>GNU General Public License v3</license>
+  <creationDate>2011-12-06</creationDate>
+  <type>application</type>
+  <version>1.0.0</version>
+  <description>a plugin to show sobipro image fields together in a beautiful gallery</description>
+  <sql>install.sql</sql>
+  <files path="ctrl:adm">
+    <file>Ctrl/adm/gallery.php</file>
+  </files>
+  <files path="models:adm">
+    <file>model/adm/gallery.php</file>
+  </files>
+  <files path="home:.">
+    <file>init.php</file>
+  </files>
+  <files path="adm:config">
+    <file>Adm/gallery.php</file>
+    <file>Adm/gallery.ini</file>
+  </files>
+  <actions>
+    <action>*</action>
+    <action>adm.*</action>
+    <action>adm_menu</action>
+  </actions>
+  <installLog>
+    <actions>
+      <action>*</action>
+      <action>adm.*</action>
+      <action>adm_menu</action>
+    </actions>
+    <modified>
+      <file>
+        <path>/mnt/ebs/home/market/public_html/components/com_sobipro/lib/ctrl/adm/gallery.php</path>
+        <size>4398</size>
+        <checksum>2934bb560bd5a7cc5d2ae4393e2651ba</checksum>
+        <backup>/mnt/ebs/home/market/public_html/components/com_sobipro/etc/installed/applications/gallery/backup/Ctrl/adm/gallery.php</backup>
+      </file>
+    </modified>
+    <files>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/lib/models/adm/gallery.php</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/opt/plugins/gallery/</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/opt/plugins/gallery/init.php</file>
+      <file>/mnt/ebs/home/market/public_html/administrator/components/com_sobipro/config/gallery.php</file>
+      <file>/mnt/ebs/home/market/public_html/administrator/components/com_sobipro/config/gallery.ini</file>
+    </files>
+    <sql/>
+  </installLog>
+</SobiProApp>

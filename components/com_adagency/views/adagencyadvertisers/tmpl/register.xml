@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Login/Register">
+		<message>
+			<![CDATA[
+				Login/Go to register page
+			]]>
+		</message>
+	</layout>
+	<state>
+		<name>Login/Go to register page</name>
+		<description>Login/Go to register page</description>
+	</state>
+</metadata>

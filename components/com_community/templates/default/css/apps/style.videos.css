@@ -1,0 +1,103 @@
+/*
+INDEX:
+
+1. SETUP
+-1.1 Defaults
+
+2. INDEX
+-2.1 Index
+-2.2 Featured
+-2.3 Listing
+-2.4 Sidebar
+
+3. VIDEO 
+-3.1 Video Tagging
+
+4. SINGLE VIDEO
+
+5. OTHERS
+
+*/
+
+/*-------------------------------------------------------------------------------------------*/
+/* 1. SETUP */
+/*-------------------------------------------------------------------------------------------*/
+/* Global */
+#community-wrap .cVideoDurationHMS {position:absolute; bottom:0; right:0; background:#000; opacity:0.7;  filter:alpha(opacity = 70); color:#FFF; font-size:80%; font-weight:700; padding:5px; line-height:1;}
+
+/* Defaults */
+#community-wrap.cVideos {}
+
+/* Default Video Listing - Video Index, My Videos, Profile Video */
+#community-wrap ul.cVideoItems {margin: 0; padding: 0;}
+#community-wrap ul.cVideoItems li.cVideoItem {list-style: none; width: 25%; float: left; margin-bottom: 20px; line-height:1.2;}
+#community-wrap ul.cVideoItems li.cVideoItem .cVideoThumb {width: 112px; margin: 0 auto;}
+#community-wrap ul.cVideoItems li.cVideoItem .cVideoThumb .album-actions {left: 30px; bottom: 25px;}
+#community-wrap ul.cVideoItems li.cVideoItem .cVideoThumb .album-actions.featured {left: 21px; bottom: 25px;}
+#community-wrap ul.cVideoItems li.cVideoItem .cVideoSummary {width: 112px; margin: 10px auto 0;}
+#community-wrap ul.cVideoItems li.cVideoItem .cVideoTitle {font-weight: bold; font-size: 13px; margin: 0 0 5px 0; line-height: 1; max-height:40px; overflow: hidden;
+}
+#community-wrap ul.cVideoItems li.cVideoItem .cVideoDetails {font-size: 11px;}
+#community-wrap.cVideos .cVideoThumbUrl img {width:112px;height:84px;}
+
+/*-------------------------------------------------------------------------------------------*/
+/* 2. INDEX */
+/*-------------------------------------------------------------------------------------------*/
+/* 2.1 Index */
+#community-wrap.cVideos .cIndex {}
+
+/* 2.2 Featured */
+#community-wrap.cVideos .cIndex #cFeatured {padding: 0 0 5px;}
+#community-wrap.cVideos .cIndex #cFeatured .cPlayer {margin: 0 -1px;}
+#community-wrap.cVideos .cIndex #cFeatured .cPlayer .video-player {margin:0; border-bottom:1px solid #555; border-radius: 5px 5px 0 0;}
+
+#community-wrap.cVideos .cIndex #cFeatured .cMeta {background:#363636; padding: 15px 0; margin: 0 -1px; position: relative;}
+#community-wrap.cVideos .cIndex #cFeatured .cMeta ul {margin: 0; padding: 0 0 0 15px}
+#community-wrap.cVideos .cIndex #cFeatured .cMeta li {list-style: none; float: left; font-size: 11px;}
+#community-wrap.cVideos .cIndex #cFeatured .cMeta li a {color:#ccc;}
+#community-wrap.cVideos .cIndex #cFeatured .cMeta li.ctitle {display: block; width: 100%;}
+#community-wrap.cVideos .cIndex #cFeatured .cMeta li.ctitle h3 {font-size:20px; font-weight:normal; margin: 0 120px 0 0;}
+#community-wrap.cVideos .cIndex #cFeatured .cMeta li.ctitle h3 a {color: #fff}
+#community-wrap.cVideos .cIndex #cFeatured .cMeta li.cLike {position: absolute; right: 15px;}
+#community-wrap.cVideos .cIndex #cFeatured .cMeta li.cLike a {color:#555;}
+
+#community-wrap.cVideos .cIndex #cFeatured .cMeta li.cAuthor {background: url(../../images/f-author.png) no-repeat left center; padding-left: 14px;}
+#community-wrap.cVideos .cIndex #cFeatured .cMeta li.cHits {background: url(../../images/f-view.png) no-repeat left center; padding-left: 14px; margin-left: 10px;}
+#community-wrap.cVideos .cIndex #cFeatured .cMeta li.cComCount {background: url(../../images/f-comment.png) no-repeat left center; padding-left: 14px; margin-left: 10px;}
+
+#community-wrap.cVideos .cIndex #cFeatured .cSlider {width:auto; height:184px;}
+#community-wrap.cVideos .cIndex #cFeatured .cSlider ul {}
+#community-wrap.cVideos .cIndex #cFeatured .cSlider ul li {}
+#community-wrap.cVideos .cIndex #cFeatured .cSlider ul li .cFeaturedTitle {font-size: 12px; line-height: 13px; margin-bottom: 0; max-height: 40px; overflow: hidden;
+}
+#community-wrap.cVideos .cIndex #cFeatured .cSlider ul li .cFeaturedTitle a {color: #333}
+#community-wrap.cVideos .cIndex #cFeatured .cSlider ul li .cFeaturedTitle a:hover {background: none; color: #006bb8}
+
+/* 2.3 Listing */
+#community-wrap.cVideos .cIndex .cVideoIndex {}
+
+/* 2.4 Sidebar */
+#community-wrap.cVideos .cIndex .cSidebar {}
+#community-wrap.cVideos .cIndex .cSidebar .cCategories li a {display: inline-block;}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* 3. VIDEO */
+/*-------------------------------------------------------------------------------------------*/
+#community-wrap.cVideos .cVideoDetails .videoTextTags {margin:10px 0;}
+
+/*-------------------------------------------------------------------------------------------*/
+/* 4. SINGLE VIDEO */
+/*-------------------------------------------------------------------------------------------*/
+#community-wrap.cVideos {}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* 5. OTHERS */
+/*-------------------------------------------------------------------------------------------*/
+#community-wrap.cGroups #community-group-container {}
+#community-wrap.cGroups #community-group-container .cVideoItems {}
+#community-wrap.cGroups #community-group-container .cVideoItems .cVideoItem {position: relative; width: 100px; padding: 2px 1px 1px 2px; float: left}
+#community-wrap.cGroups #community-group-container .cVideoItems .cVideoItem .cVideoThumb {width: 100px; height: 75px;}
+#community-wrap.cGroups #community-group-container .cVideoItems .cVideoItem a {width: 100px; height: 75px;}
+#community-wrap.cGroups #community-group-container .cVideoItems .cVideoItem img {width: 100px; height: 75px; float: left;}

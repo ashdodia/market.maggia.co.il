@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SobiProApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://xml.sigsiu.net/SobiPro/application.xsd">
+  <name>Easy slider addon</name>
+  <id>easy-slider</id>
+  <authorName>Mostafa Shalkami</authorName>
+  <authorEmail>info@sobimarket.net</authorEmail>
+  <authorUrl>http://www.sobimarket.net</authorUrl>
+  <copyright>Copyright (C) 2009-2011 Sobimarket.net</copyright>
+  <license>GNU General Public License v3</license>
+  <creationDate>2011-12-06</creationDate>
+  <type>global_application</type>
+  <version>1.0.0</version>
+  <description>Easy slider addon to gallery plugin</description>
+  <files path="js:gallery">
+    <folder>tpl/js/</folder>
+  </files>
+  <files path="css:gallery">
+    <folder>tpl/css/</folder>
+  </files>
+  <files path="home:.">
+    <file>easy-slider.tpl.php</file>
+    <file>config.php</file>
+  </files>
+  <actions>
+    <action>gallery</action>
+  </actions>
+  <requirements>
+    <application>gallery</application>
+  </requirements>
+  <installLog>
+    <actions>
+      <action>gallery</action>
+    </actions>
+    <modified/>
+    <files>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/lib/js/gallery/easy-slider/1easy-slider.js</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/lib/js/gallery/easy-slider/2init.js</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/css/gallery/easy-slider/easy-slider.css</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/css/gallery/easy-slider/images/btn_next.gif</file>
+      <file>/mnt/ebs/home/market/public_html/media/sobipro/css/gallery/easy-slider/images/btn_prev.gif</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/opt/plugins/easy-slider/</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/opt/plugins/easy-slider/easy-slider.tpl.php</file>
+      <file>/mnt/ebs/home/market/public_html/components/com_sobipro/opt/plugins/easy-slider/config.php</file>
+    </files>
+  </installLog>
+</SobiProApp>

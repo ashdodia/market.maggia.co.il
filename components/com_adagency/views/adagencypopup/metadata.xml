@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<view title="Add Popup Ad">
+		<message>
+			<![CDATA[
+				Add Popup Ad Link
+			]]>
+		</message>
+	</view>
+	<state>
+		<name>Popup</name>
+		<description>Add Popup Ad Link</description>
+	</state>
+</metadata>

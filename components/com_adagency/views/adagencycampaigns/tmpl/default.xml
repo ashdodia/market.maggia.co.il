@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Campaigns Page">
+		<message>
+			<![CDATA[
+				Campaigns Page
+			]]>
+		</message>
+	</layout>
+	<state>
+		<name>Campaigns Page</name>
+		<description>Campaigns Page</description>
+	</state>
+</metadata>
